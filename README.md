@@ -15,7 +15,7 @@ El objetivo principal es que el usuario pueda tener un formulario funcional que 
 1. Clona este repositorio en Railway o en tu entorno local:
 
 ```bash
-git clone <URL-del-repo>
+git clone <https://github.com/infodigitalpty/botondepago-yappy-railway.git>
 ```
 
 2. Configura las variables de entorno necesarias para la integración con Yappy (como claves, tokens o cualquier parámetro que el API de Yappy requiera). Ejemplo en un archivo `.env`:
