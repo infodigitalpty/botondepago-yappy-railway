@@ -1,0 +1,36 @@
+{
+  "name": "botondepago-yappy-railway",
+  "version": "1.0.0",
+  "description": "Template para integrar el botón de pago Yappy en Railway con Node.js, Express y Bootstrap",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Infodigitalpty",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infodigitalpty/yappy-template-railway"
+  },
+  "homepage": "https://github.com/infodigitalpty/yappy-template-railway",
+  "keywords": [
+    "yappy",
+    "pagos",
+    "panama",
+    "nodejs",
+    "railway",
+    "express",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "yappy-node-back-sdk": "file:yappy-node-back-sdk-1.1.222.tar"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
